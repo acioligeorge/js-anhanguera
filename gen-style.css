@@ -1,0 +1,95 @@
+/* Inicio formatação HTML */
+body{
+    font-family: sans-serif;
+    padding: 8px;
+    margin: 6px 0 12px 0;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+
+}
+
+.error{
+    color: #f00;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 8px 0;
+}
+/* Formatação de tabelas */
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+table th, table td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+table th{
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333;
+}
+table tr:nth-child(even){
+    background-color: #f9f9f9;
+}
+table tr:hover{
+    background-color: #f1f1f1;
+}
+
+table tr.selected{
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+table tr.selected:hover{
+    background-color: #c3e6cb;
+    color: #155724;
+}
+/* Formatação de botões */
+button{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color: #0056b3;
+}
+button:disabled{
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+button:disabled:hover{
+    background-color: #ccc;
+}
+/* Formatação de links */
+a{
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+a:hover{
+    color: #0056b3;
+}
+/* Formatação de inputs */
+input[type="nome"],
+input[type="CPF"],
+input[type="telefone"],
+input[type="email"],
+input[type="mensagem"],

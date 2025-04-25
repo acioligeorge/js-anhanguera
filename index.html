@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gen-style.css">
+    <title>Port. Js - Anhanguera</title>
+</head>
+<!-- formulário de validação com JavaScript proposto como portfólio de JavaScript -->
+<body>
+    <h1>Bem-vindo ao Projeto da Anhanguera</h1>
+    <p>Este é um projeto criado com a finalidade de expressar meus conhecimentos utilizando JavaScript, incluindo utilização de HTML e CSS.</p>
+    <div>
+    <h2>Formulário</h2>
+    </div>
+    <!-- Inicío de fromulário + pedido de verificação-->
+    <form id="formulario" onsubmit="return validarFormulario()"> 
+        <!-- Campo nome-->
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome"><br><br>
+        <!-- Campo CPF-->
+        <label for="cpf">CPF:</label><br>
+        <input type="text" id="cpf" name="cpf"><br><br>
+        <!--Campo email-->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <!-- Campo telefone-->
+        <label for="telefone">Telefone:</label><br>
+        <input type="tel" id="telefone" name="telefone"><br><br>
+        <!-- Campo mensagem-->
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem"></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+    
+        <script src="form.js"></script>
+    </body>
+
+
+</html>
