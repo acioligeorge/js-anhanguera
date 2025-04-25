@@ -23,12 +23,8 @@ Este é um projeto simples de um formulário HTML com validação de **email** e
 
 ## 📁 Estrutura do Projeto
 
-Dito pelo ChatGPT:
-Claro, George! Aqui está um modelo de README.md bonito, bem formatado, com explicação do projeto, tecnologias utilizadas e uma árvore de ficheiros com emojis — perfeito para repositório no GitHub:
+README.md para poder dar um norte sobre projeto
 
-markdown
-Copiar
-Editar
 # 📬 Formulário de Contacto com Validação
 
 Este é um projeto simples de um formulário HTML com validação de **email** e **telefone** usando **JavaScript**. O objetivo é demonstrar como validar dados do utilizador antes do envio, com foco na usabilidade e boas práticas.
