@@ -1,95 +1,75 @@
-/* Inicio formatação HTML */
-body{
-    font-family: sans-serif;
-    padding: 8px;
-    margin: 6px 0 12px 0;
-    background-color: #f0f0f0;
-    color: #333;
-    font-size: 14px;
-    line-height: 1.5;
-    text-align: left;
-
+/* Estilo básico para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Tipo de letra simples e comum */
+    background-color: #f2f2f2; /* Cor de fundo clara */
+    color: #333; /* Cor do texto */
+    padding: 20px; /* Espaço interno */
 }
 
-.error{
-    color: #f00;
-    font-weight: bold;
+/* Estilo para o título principal */
+h1 {
+    color: #0056b3; /* Cor azul escura */
+}
+
+/* Estilo para o subtítulo */
+h2 {
+    color: #333;
+}
+
+/* Estilo para os parágrafos */
+p {
     font-size: 16px;
-    text-align: center;
-    margin: 0 auto;
-    padding: 8px 0;
-}
-/* Formatação de tabelas */
-table{
-    border-collapse: collapse;
-    width: 100%;
-    margin: 0 auto;
-    background-color: #fff;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-table th, table td{
-    padding: 8px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-}
-table th{
-    background-color: #f2f2f2;
-    font-weight: bold;
-    color: #333;
-}
-table tr:nth-child(even){
-    background-color: #f9f9f9;
-}
-table tr:hover{
-    background-color: #f1f1f1;
+    line-height: 1.5; /* Espaçamento entre linhas */
 }
 
-table tr.selected{
-    background-color: #d1e7dd;
-    color: #0f5132;
+/* Estilo para o formulário */
+form {
+    background-color: #fff; /* Fundo branco */
+    padding: 20px; /* Espaço interno */
+    border-radius: 5px; /* Cantos arredondados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    max-width: 500px;
+    margin: 0 auto; /* Centraliza o formulário */
 }
-table tr.selected:hover{
-    background-color: #c3e6cb;
-    color: #155724;
+
+/* Estilo para os rótulos dos campos */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
-/* Formatação de botões */
-button{
-    background-color: #007bff;
-    color: #fff;
+
+/* Estilo para os campos de entrada e área de texto */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%; /* Ocupa toda a largura do formulário */
+    padding: 10px; /* Espaço interno */
+    margin-bottom: 15px; /* Espaço entre os campos */
+    border: 1px solid #ccc; /* Borda cinza clara */
+    border-radius: 4px; /* Cantos arredondados */
+    box-sizing: border-box; /* Inclui padding na largura total */
+}
+
+/* Estilo para o botão de envio */
+input[type="submit"] {
+    background-color: #007bff; /* Azul padrão */
+    color: white; /* Texto branco */
     border: none;
     padding: 10px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
     border-radius: 4px;
-    transition: background-color 0.3s ease;
+    cursor: pointer;
 }
-button:hover{
-    background-color: #0056b3;
+
+/* Efeito ao passar o mouse no botão */
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Azul mais escuro */
 }
-button:disabled{
-    background-color: #ccc;
-    cursor: not-allowed;
+
+/* Estilo para mensagens de erro (caso aplicável no JS) */
+.error {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
 }
-button:disabled:hover{
-    background-color: #ccc;
-}
-/* Formatação de links */
-a{
-    color: #007bff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-a:hover{
-    color: #0056b3;
-}
-/* Formatação de inputs */
-input[type="nome"],
-input[type="CPF"],
-input[type="telefone"],
-input[type="email"],
-input[type="mensagem"],
